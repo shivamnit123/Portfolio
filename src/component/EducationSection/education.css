@@ -1,0 +1,113 @@
+.title {
+    font-size: 15em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    overflow-y: auto;
+}
+
+.main-part {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    padding-top: 0.25em;
+}
+
+.box-part {
+    height: 180px;
+    width: 550px;
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+        0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+}
+
+
+
+.vertical-timeline-element-subtitle {
+    margin-top: 5px;
+    font-size: 17px;
+    color: #000;
+
+}
+
+.vertical-timeline-element-title {
+    font-size: 20px;
+}
+
+.vertical-timeline-element-subject {
+    font-size: 15px;
+}
+
+
+#description {
+    margin: 1.5em 0 2em 0;
+    font-style: italic;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+    .box-part {
+        height: 130px;
+        width: 250px;
+    }
+
+    .title {
+        font-size: 8em;
+    }
+
+    .vertical-timeline-element-subtitle {
+        margin-top: 3px;
+        font-size: 10px;
+    }
+
+    .vertical-timeline-element-title {
+        font-size: 12px;
+    }
+
+    #subject {
+        font-size: 12px;
+    }
+
+
+    p {
+        margin: 1.3em 0 1.5em 0;
+        font-style: italic;
+        font-size: 6px;
+    }
+
+}
+
+@media screen and (max-width: 230px) {
+    .box-part {
+        height: 180px;
+        width: 150px;
+    }
+
+    .title {
+        font-size: 3em;
+    }
+
+    .vertical-timeline-element-subtitle {
+        margin-top: 1px;
+        font-size: 6px;
+    }
+
+
+    .vertical-timeline-element-title {
+        font-size: 8px;
+    }
+
+    p {
+        margin: 1.3em 0 1.5em 0;
+        font-style: italic;
+        font-size: 4px;
+    }
+
+}

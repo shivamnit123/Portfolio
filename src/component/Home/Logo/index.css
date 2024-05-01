@@ -1,0 +1,67 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 150px;
+  opacity: 1;
+  /* Change opacity to 1 to make the container visible */
+  position: absolute;
+  top: -5%;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+}
+
+.logo-container svg {
+  width: 60%;
+  height: auto;
+  bottom: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-container .solid-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  opacity: 1;
+  /* Change opacity to 1 to make the logo visible */
+  z-index: 1;
+  border-radius: 11%;
+}
+
+.logo-container {
+  /* Your existing styles */
+  /* Add transition for smoother appearance */
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.logo-container.show {
+  /* Show the logo after 3 seconds */
+  opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo-container {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    top: 60px;
+    right: 0;
+    box-sizing: border-box;
+    margin: auto;
+    left: 0%;
+  }
+
+  .logo-container svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

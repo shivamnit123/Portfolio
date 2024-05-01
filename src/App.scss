@@ -1,0 +1,86 @@
+/* Variables */
+:root {
+  --primary-color: #ffd700;
+}
+/* General Styles */
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* Top Tags */
+.top-tags {
+  bottom: auto;
+  top: 35px;
+}
+
+/* Tags Styles */
+.tags {
+  color: #ffd700;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 140px;
+  font-size: 18px;
+  font-family: "La Belle Aurore", cursive;
+  font-style: italic;
+
+  &.bottom-tag-html {
+    margin-left: -20px;
+  }
+}
+
+/* Imports */
+@import "animate.css";
+@import "~loaders.css/src/animations/square-spin.scss";
+/* Font Faces */
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./assets/fonts/helvetica-neu.ttf.url") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "La Belle Aurore";
+  src: url("./assets/fonts/LaBelleAurore.woff2.url") format("woff2"),
+    url("./assets/fonts/LaBelleAurore.woff.url") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("./assets/fonts/CoolveticaRg-Regular.woff2.url") format("woff2"),
+    url("./assets/fonts/CoolveticaRg-Regular.woff.url") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Input and Textarea Styles */
+input,
+textarea {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Loader Styles */
+.loader-hidden {
+  display: none;
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 0.5s;
+  animation-fill-mode: forwards;
+}
+

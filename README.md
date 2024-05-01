@@ -1,4 +1,4 @@
-# Hi there, I'm [Shivam Tiwari] 👋
+# Hi there, I'm Shivam Tiwari 👋
 
 Welcome to my portfolio! Here's a glimpse of what you'll find:
 

@@ -28,4 +28,4 @@ Welcome to my portfolio! Here's a glimpse of what you'll find:
 
 Feel free to reach out to me through the contact form or connect via my social profiles. Let's collaborate and create something amazing together!
 
-[![Portfolio Preview]](https://portfolio-vzsh.vercel.app/)
+[![Click here to see my portfolio]](https://portfolio-vzsh.vercel.app/)

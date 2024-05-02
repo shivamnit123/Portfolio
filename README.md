@@ -28,5 +28,4 @@ Welcome to my portfolio! Here's a glimpse of what you'll find:
 
 Feel free to reach out to me through the contact form or connect via my social profiles. Let's collaborate and create something amazing together!
 
-[Click here to see my portfolio](portfolio-git-master-shivam-tiwaris-projects.vercel.app
-)
+[Click here to see my portfolio](https://portfolio-tvaqf38ns-shivam-tiwaris-projects.vercel.app/)

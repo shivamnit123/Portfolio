@@ -1,0 +1,28 @@
+{
+  "education": [
+    {
+      "title": "Secondary Education",
+      "college": "Little Angel Higher Secondary School Mhow",
+      "subject": "PCM",
+      "year": "2016-17"
+    },
+    {
+      "title": "Senior Secondary Education",
+      "college": "Christina Convent Higher Secondary School Mhow",
+      "subject": "PCM",
+      "year": "2018-19"
+    },
+    {
+      "title": "Graduation",
+      "college": "Govt. Holkar Science College Indore",
+      "subject": "I have done my gradution in Bachelor of Computer Science from  Holkar Science college Indore. Here I have started my Computer Science journey.",
+      "year": "2019-2022"
+    },
+    {
+      "title": " Post Graduation",
+      "college": "National Institute Of Technology Raipur",
+      "subject": "Currently I am pursuing Master of Computer Applications (MCA) from National Institute of Technology Raipur Chattisgarh.",
+      "year": "2022-2025"
+    }
+  ]
+}

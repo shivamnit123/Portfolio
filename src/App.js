@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Layout from './component/Layout';
+import Home from './component/Home';
+import Sidebar from './component/Sidebar'
+import About from './component/AboutSection/about';
+import ContactPage from './component/ContactPage';
+import '../src/component/Layout/index.css';
+import ProjectSection from './component/ProjectSection';
+import EducationSection from './component/EducationSection';
+import MyProfile from './component/MyProfile';
+import ParticleComponent from './component/Tspartcle/ParticleComponent';
+import AnimatedCurs from './component/Cursor/AnimatedCurs';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <AnimatedCurs />
+      <ParticleComponent />
+      <Sidebar />
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route index element={<Home />} />
+        <Route path="/education" element={<EducationSection />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/myprofiles" element={<MyProfile />} />
+        <Route path='/projects' element={<ProjectSection />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

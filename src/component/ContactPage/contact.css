@@ -66,12 +66,12 @@
  }
 
  .contact-form .flat-button {
-     color: #ffd700;
+     color: #faf8f6;
      font-size: 11px;
      letter-spacing: 3px;
      text-decoration: none;
      padding: 8px 10px;
-     border: 1px solid #ffd700;
+     border: 1px solid #4fceee;
      float: left;
      border-radius: 4px;
      background: 0 0;
@@ -99,7 +99,7 @@
  .container.contact-page h1 {
      font-size: 50px;
      font-family: "Coolvetica";
-     color: #ffd700;
+     color: #51e8f9;
      margin-top: 10%;
      position: relative;
      margin-bottom: 60px;
@@ -112,7 +112,7 @@
      content: "";
      font-family: "La Belle Aurore", cursive;
      font-style: italic;
-     color: #ffd700;
+     color: #43e5f4;
      font-size: 16px;
      position: absolute;
      margin-top: -20px;
@@ -125,7 +125,7 @@
      content: "";
      font-family: "La Belle Aurore", cursive;
      font-style: italic;
-     color: #ffd700;
+     color: #3be6f9;
      font-size: 16px;
      line-height: 15px;
      position: absolute;
@@ -166,7 +166,7 @@
  }
 
  .flat-button:hover {
-     background-color: #ffd700;
+     background-color: #30def9;
      color: black;
      font-weight: bold;
      cursor: pointer;

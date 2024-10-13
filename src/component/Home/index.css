@@ -36,14 +36,14 @@
 }
 
 .home-page .flat-button {
-    color: #ffd700;
+    color: #ffff;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid #3aefe9;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;

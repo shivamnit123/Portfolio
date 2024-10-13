@@ -19,7 +19,7 @@
 h1 {
     font-size: 53px;
     font-family: "Coolvetica";
-    color: #ffd700;
+    color: #45cef7;
     font-weight: 400;
     margin-top: 0;
     position: relative;
@@ -28,219 +28,98 @@ h1 {
 }
 
 .myProfile {
-    position: fixed;
-    top: 28%;
-    right: 35%;
-    width: 30%;
-    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 15px;
+    /* Add gap between containers */
 }
 
-.links {
-    margin-top: 20px;
+.links-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 25px;
+    /* Arrange links in row-wise manner */
+    width: 40%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Change background color to light grey */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .icon {
-    border: 1px solid #ffffff88;
-    padding: 17px;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    margin: 10px 0px;
-    gap: 10px;
-    justify-content: center;
-    transition: all 1s;
-    margin-bottom: 25px;
-    text-decoration: none;
+    font-size: 3.5rem;
+    /* Increase icon size */
+    margin: 10px;
+    color: #4d4d4e;
+    transition: color 0.3s ease;
+    gap: 8px;
 }
 
-.icon {
-    position: relative;
-}
-
-.icon::after {
-    content: '';
-    position: absolute;
-    bottom: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    font-size: 14px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 3px 8px;
-    border-radius: 5px;
-    transition: opacity 0.3s ease;
-    z-index: 1;
-    font-weight: 600;
-}
-
-.icon:hover::after {
-    opacity: 1;
-}
-
-.linkedin::after {
-    content: 'LINKEDIN';
-}
-
-.github::after {
-    content: 'GITHUB';
-}
-
-.instagra::after {
-    content: 'INSTAGRAM';
-}
-
-.twitter::after {
-    content: 'TWITTER';
-}
-
-.chef::after {
-    content: 'CODECHEF';
-}
-
-.forces::after {
-    content: 'CODEFORCES';
-}
-
-.leetcode::after {
-    content: 'LEETCODE';
-}
-
-.gfg::after {
-    content: 'GFG';
-}
-
-.cn::after {
-    content: 'CODING NINJAS';
-}
-
-.hr::after {
-    content: 'HACKERRANK';
-}
-
-#leetcode {
-    border: 3px solid #6b2e2e;
-}
-
-#leetcode:hover {
-    background-color: #6b2e2e;
-
-}
-
-#github {
-    border: 3px solid #171515;
-
-}
-
-#github:hover {
-    background-color: #fff;
-    color: #dddddd;
-}
-
-#instagram {
-    color: #cb2770;
-    border: 3px solid #cb2770;
-}
-
-#instagram:hover {
-    background-color: #cb2770;
-    color: #fff;
-}
-
-#codechef {
-    background-color: white;
-    border: 3px solid white;
-}
-
-#codeforces {
-    background-color: black;
-}
-
-#CodingNinja {
-    color: #dddddd;
-    border: 3px solid #171515;
-}
-
-#CodingNinja:hover {
-    background-color: #dddddd;
-    color: #dddddd;
-}
-
-#codeforces:hover {
-    background-color: rgb(255, 255, 255);
-    border: 3px solid black;
-}
-
-#codechef:hover {
-    background-color: rgb(251, 169, 251);
-    border: 3px solid black;
-}
-
-.linkedin {
-    color: #0081c2;
-    border: 3px solid #0081c2;
+.icon:hover {
+    color: #0073b1;
+    /* Change to desired hover color */
 }
 
 .linkedin:hover {
-    background-color: #0081c2;
-    color: #fff;
+    color: #0077b5;
 }
 
-.container.portfolio-page .text-animate-hover:hover {
-    color: #fff;
+.instagram:hover {
+    color: #e4405f;
 }
 
-#profilehead {
-    font-size: 45px;
-    font-family: "Lugrasimo", cursive;
-    font-weight: 500;
-    font-style: normal;
+.twitter:hover {
+    color: #1da1f2;
 }
 
-/* Media Query */
-@media screen and (max-width: 1200px) {
+.codechef svg {
+    width: 3rem;
+}
 
-    .container.portfolio-page {
-        width: 100%;
-        padding: 20px;
-        box-sizing: border-box;
-    }
+.leetcode svg,
+.hackerrank svg,
+.forces svg,
+.gfg svg,
+.github,
+.cn {
+    width: 2.5rem;
+    /* Increase icon size */
+    height: 2.5rem;
+    /* Increase icon size */
+    fill: #4d4d4e;
+    transition: fill 0.3s ease;
+}
 
-    .container.portfolio-page,
-    h1.page-title {
-        margin-left: 20px;
-        margin-top: 40px;
-    }
+.leetcode:hover svg {
+    fill: #ffa116;
+}
 
-    .container .portfolio-page .text-zone {
-        position: initial;
-        transform: none;
-        width: 100%;
-        display: block;
-        padding: 20px;
-        box-sizing: border-box;
-    }
+.codechef:hover svg {
+    fill: #5b4638;
+}
 
-    #profilehead {
-        font-size: 30px;
-        width: 100%;
-    }
+.hackerrank:hover svg {
+    fill: #2EC866;
+}
 
-    .icon {
-        width: 30px;
-        height: 30px;
-    }
+.github:hover {
+    color: #333;
+}
 
-    .links {
-        gap: 10px;
-    }
+.codeforces:hover svg {
+    fill: #1f8acb;
+}
 
+.gfg:hover svg {
+    fill: #2f8d46;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1da1f2;
 }

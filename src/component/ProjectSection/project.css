@@ -16,7 +16,7 @@
  .container.portfolio-page h1 {
      font-size: 60px;
      font-family: "Coolvetica";
-     color: #ffd700;
+     color: #3fd3fc;
      font-weight: bold;
      margin-top: 10px;
      position: relative;
@@ -29,7 +29,7 @@
      content: "";
      font-family: "La Belle Aurore", cursive;
      font-style: italic;
-     color: #ffd700;
+     color: #3bbff3;
      font-size: 16px;
      position: absolute;
      margin-top: -10px;
@@ -42,7 +42,7 @@
      content: "";
      font-family: "La Belle Aurore", cursive;
      font-style: italic;
-     color: #ffd700;
+     color: #4ed8ff;
      font-size: 16px;
      line-height: 18px;
      position: absolute;

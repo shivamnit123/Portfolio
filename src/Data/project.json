@@ -1,6 +1,12 @@
 {
   "project": [
     {
+      "cover": "/Projectda/3/Connectify.png",
+      "title": "Connectify",
+      "description": "React,Nodejs,Express,MongoDb,Cloudinary",
+      "url": "https://github.com/shivamnit123/socialpulse"
+    },
+    {
       "cover": "/Projectda/3/doc2.png",
       "title": "Doctor Appointment",
       "description": "React,Nodejs,Express,MongoDb",
